@@ -25,4 +25,13 @@ class TDD_PasswordTest {
         assertEquals(false, TDD_Password.checkPassword(password));
     }
 
+    /**
+     * Testet ob das Passwort einen Kleinbuchstaben enthält
+     */
+    @Test
+    void checkPassword_smallLetter() {
+        String password = "THATSMYPASSWORD";
+        assertEquals(false, TDD_Password.checkPassword(password));
+    }
+
 }
