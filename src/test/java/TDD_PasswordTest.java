@@ -66,8 +66,18 @@ class TDD_PasswordTest {
      */
     @Test
     void checkPassword_wrongspecialChar() {
-        String password = "thatsmyPassword1!.";
+        String password = "thatsmyPasswort!:";
         assertEquals(false, TDD_Password.checkPassword(password));
     }
+
+    /**
+     * Testet ob das Passwort keine Zahlen mehrfach hintereinander vorkommt
+     */
+    @Test
+    void checkPassword_duplicatedDigits() {
+        String password = "myPassword1111!";
+        assertEquals(false, TDD_Password.checkPassword(password));
+    }
+
 
 }

@@ -25,11 +25,17 @@ public class TDD_Password {
             }
             Pattern pattern = Pattern.compile("[()#$?!%/@]");
             Matcher specChar = pattern.matcher(Character.toString(character));
-            if (specChar.find()){
+            Boolean specialChar = specChar.find();
+            if (specialChar){
                 hasSpecChar = true;
+            }
+            if (!Character.isLowerCase(character) && !Character.isUpperCase(character) && !Character.isDigit(character) &&
+                    !specialChar) {
+                return false;
             }
         }
         return hasLowercaseLetter && hasUppercaseLetter && hasDigit && hasSpecChar;
     }
+
 
 }
