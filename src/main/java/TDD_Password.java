@@ -3,7 +3,7 @@ public class TDD_Password {
 
     public static boolean checkPassword(String password) {
         boolean hasLowercaseLetter = false;
-
+        boolean hasUppercaseLetter = false;
 
         if (password.length() > 25 || password.length() < 5){
             return false;
@@ -12,8 +12,11 @@ public class TDD_Password {
             if(Character.isLowerCase(character)){
                 hasLowercaseLetter = true;
             }
+            if(Character.isUpperCase(character)){
+                hasUppercaseLetter = true;
+            }
         }
-        return hasLowercaseLetter;
+        return hasLowercaseLetter && hasUppercaseLetter;
     }
 
 }

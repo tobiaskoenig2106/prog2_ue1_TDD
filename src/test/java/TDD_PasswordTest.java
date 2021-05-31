@@ -43,4 +43,13 @@ class TDD_PasswordTest {
         assertEquals(false, TDD_Password.checkPassword(password));
     }
 
+    /**
+     * Testet ob das Passwort eine Zahl enthält
+     */
+    @Test
+    void checkPassword_Digit() {
+        String password = "thatsmyPassword";
+        assertEquals(false, TDD_Password.checkPassword(password));
+    }
+
 }
