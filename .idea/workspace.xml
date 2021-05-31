@@ -5,11 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e25163bd-88d3-4744-8382-c7b8207ff6a8" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/TDD_Password.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/TDD_Password.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/TDD_PasswordTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/TDD_PasswordTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -62,6 +59,13 @@
     </key>
   </component>
   <component name="RunManager" selected="JUnit.TDD_PasswordTest">
+    <configuration name="TDD_Password" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="TDD_Password" />
+      <module name="prog2_ue1_TDD" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="TDD_PasswordTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="prog2_ue1_TDD" />
       <option name="PACKAGE_NAME" value="" />
@@ -84,6 +88,7 @@
     <recent_temporary>
       <list>
         <item itemvalue="JUnit.TDD_PasswordTest" />
+        <item itemvalue="Application.TDD_Password" />
         <item itemvalue="JUnit.TDD_PasswordTest.checkPassword_tooLong" />
       </list>
     </recent_temporary>
@@ -97,7 +102,83 @@
       <option name="presentableId" value="Default" />
       <updated>1622466197066</updated>
     </task>
+    <task id="LOCAL-00001" summary="first Test + Method in Class">
+      <created>1622468288834</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1622468288834</updated>
+    </task>
+    <task id="LOCAL-00002" summary="solved for first Test + wrote second test">
+      <created>1622468579078</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1622468579078</updated>
+    </task>
+    <task id="LOCAL-00003" summary="solved for second Test + wrote third test">
+      <created>1622468733073</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1622468733073</updated>
+    </task>
+    <task id="LOCAL-00004" summary="solved for third Test + wrote fourth Test (UpperCaseLetter)">
+      <created>1622469428332</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1622469428332</updated>
+    </task>
+    <task id="LOCAL-00005" summary="solved for fourth Test + wrote fifth Test (Digit)">
+      <created>1622469691780</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1622469691780</updated>
+    </task>
+    <task id="LOCAL-00006" summary="solved for fifth Test + wrote sixth Test (specialChar)">
+      <created>1622470108440</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1622470108440</updated>
+    </task>
+    <task id="LOCAL-00007" summary="solved for sixth Test + wrote seventh Test (wrongSpecialChar)">
+      <created>1622471505278</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1622471505278</updated>
+    </task>
+    <task id="LOCAL-00008" summary="solved for seventh Test + wrote eighth Test (duplicatedDigits)">
+      <created>1622472767971</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1622472767971</updated>
+    </task>
+    <task id="LOCAL-00009" summary="solved for eighth Test + wrote ninth Test (followingDigits)">
+      <created>1622473502299</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1622473502299</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="first Test + Method in Class" />
+    <MESSAGE value="solved for first Test + wrote second test" />
+    <MESSAGE value="solved for second Test + wrote third test" />
+    <MESSAGE value="solved for third Test + wrote fourth Test (UpperCaseLetter)" />
+    <MESSAGE value="solved for fourth Test + wrote fifth Test (Digit)" />
+    <MESSAGE value="solved for fifth Test + wrote sixth Test (specialChar)" />
+    <MESSAGE value="solved for sixth Test + wrote seventh Test (wrongSpecialChar)" />
+    <MESSAGE value="solved for seventh Test + wrote eighth Test (duplicatedDigits)" />
+    <MESSAGE value="solved for eighth Test + wrote ninth Test (followingDigits)" />
+    <option name="LAST_COMMIT_MESSAGE" value="solved for eighth Test + wrote ninth Test (followingDigits)" />
   </component>
   <component name="WindowStateProjectService">
     <state x="765" y="228" key="#com.intellij.ide.util.MemberChooser" timestamp="1622466853213">
@@ -116,9 +197,49 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="701" y="226" key="Github.UntrackedFilesDialog/-1920.0.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1622466680636" />
+    <state width="1881" height="282" key="GridCell.Tab.0.bottom" timestamp="1622474274614">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1881" height="282" key="GridCell.Tab.0.bottom/-1920.0.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1622474274614" />
+    <state width="1881" height="282" key="GridCell.Tab.0.center" timestamp="1622474274614">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1881" height="282" key="GridCell.Tab.0.center/-1920.0.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1622474274614" />
+    <state width="1881" height="282" key="GridCell.Tab.0.left" timestamp="1622474274614">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1881" height="282" key="GridCell.Tab.0.left/-1920.0.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1622474274614" />
+    <state width="1881" height="282" key="GridCell.Tab.0.right" timestamp="1622474274614">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1881" height="282" key="GridCell.Tab.0.right/-1920.0.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1622474274614" />
+    <state width="1881" height="348" key="GridCell.Tab.1.bottom" timestamp="1622473943027">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1881" height="348" key="GridCell.Tab.1.bottom/-1920.0.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1622473943027" />
+    <state width="1881" height="348" key="GridCell.Tab.1.center" timestamp="1622473943027">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1881" height="348" key="GridCell.Tab.1.center/-1920.0.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1622473943027" />
+    <state width="1881" height="348" key="GridCell.Tab.1.left" timestamp="1622473943027">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1881" height="348" key="GridCell.Tab.1.left/-1920.0.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1622473943027" />
+    <state width="1881" height="348" key="GridCell.Tab.1.right" timestamp="1622473943027">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1881" height="348" key="GridCell.Tab.1.right/-1920.0.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1622473943027" />
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1622473518472">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2/-1920.0.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1622473518472" />
     <state x="731" y="337" key="com.intellij.testIntegration.createTest.CreateTestDialog" timestamp="1622467686528">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="731" y="337" key="com.intellij.testIntegration.createTest.CreateTestDialog/-1920.0.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1622467686528" />
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1622472975262">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/-1920.0.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1622472975262" />
   </component>
 </project>
