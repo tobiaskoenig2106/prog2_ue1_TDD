@@ -79,5 +79,13 @@ class TDD_PasswordTest {
         assertEquals(false, TDD_Password.checkPassword(password));
     }
 
+    /**
+     * Testet ob das Passwort keine Zahlen mehrfach hintereinander vorkommt
+     */
+    @Test
+    void checkPassword_followingDigits() {
+        String password = "myPassword123!";
+        assertEquals(false, TDD_Password.checkPassword(password));
+    }
 
 }

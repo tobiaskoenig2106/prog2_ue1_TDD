@@ -9,11 +9,13 @@ public class TDD_Password {
         boolean hasUppercaseLetter = false;
         boolean hasDigit = false;
         boolean hasSpecChar = false;
+        int digitcounter = 0;
 
         if (password.length() > 25 || password.length() < 5){
             return false;
         }
-        for (char character:password.toCharArray()){
+        for (int i = 0;i<password.length();i++){
+            char character = password.charAt(i);
             if(Character.isLowerCase(character)){
                 hasLowercaseLetter = true;
             }
@@ -22,6 +24,9 @@ public class TDD_Password {
             }
             if(Character.isDigit(character)){
                 hasDigit = true;
+                if(i+3<password.length() && character == password.charAt(i+1) && password.charAt(i+1) == password.charAt(i+2) && password.charAt(i+2) == password.charAt(i+3)){
+                    return false;
+                }
             }
             Pattern pattern = Pattern.compile("[()#$?!%/@]");
             Matcher specChar = pattern.matcher(Character.toString(character));
@@ -33,6 +38,8 @@ public class TDD_Password {
                     !specialChar) {
                 return false;
             }
+
+
         }
         return hasLowercaseLetter && hasUppercaseLetter && hasDigit && hasSpecChar;
     }
