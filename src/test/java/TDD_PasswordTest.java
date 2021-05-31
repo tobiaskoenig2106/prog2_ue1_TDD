@@ -71,7 +71,7 @@ class TDD_PasswordTest {
     }
 
     /**
-     * Testet ob das Passwort keine Zahlen mehrfach hintereinander vorkommt
+     * Testet ob im Passwort keine Zahlen mehrfach hintereinander vorkommt
      */
     @Test
     void checkPassword_duplicatedDigits() {
@@ -80,7 +80,7 @@ class TDD_PasswordTest {
     }
 
     /**
-     * Testet ob das Passwort keine Zahlen mehrfach hintereinander vorkommt
+     * Testet ob im Passwort keine Folge-Zahlen hintereinander vorkommen
      */
     @Test
     void checkPassword_followingDigits() {
