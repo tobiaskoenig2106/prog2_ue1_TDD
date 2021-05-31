@@ -52,4 +52,13 @@ class TDD_PasswordTest {
         assertEquals(false, TDD_Password.checkPassword(password));
     }
 
+    /**
+     * Testet ob das Passwort eines der folgenden Sonderzeichen enthält ()#$?!%/@
+     */
+    @Test
+    void checkPassword_specialChar() {
+        String password = "thatsmyPassword1";
+        assertEquals(false, TDD_Password.checkPassword(password));
+    }
+
 }
