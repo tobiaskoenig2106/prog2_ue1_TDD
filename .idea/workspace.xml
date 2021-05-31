@@ -4,7 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e25163bd-88d3-4744-8382-c7b8207ff6a8" name="Default Changelist" comment="" />
+    <list default="true" id="e25163bd-88d3-4744-8382-c7b8207ff6a8" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/TDD_Password.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/TDD_Password.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/TDD_PasswordTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/TDD_PasswordTest.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -12,6 +18,17 @@
   </component>
   <component name="CodeStyleSettingsInfer">
     <option name="done" value="true" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+        <option value="JUnit5 Test Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="MavenImportPreferences">
     <option name="generalSettings">
@@ -24,12 +41,52 @@
     <option name="version" value="1" />
   </component>
   <component name="ProjectId" id="1tIoubsZwBtjSYhQ4dFIIcFQACe" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit5" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5" value="" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../untitled" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="" />
+    </key>
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
+  </component>
+  <component name="RunManager" selected="JUnit.TDD_PasswordTest">
+    <configuration name="TDD_PasswordTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="prog2_ue1_TDD" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="TDD_PasswordTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TDD_PasswordTest.checkPassword_tooLong" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="prog2_ue1_TDD" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="TDD_PasswordTest" />
+      <option name="METHOD_NAME" value="checkPassword_tooLong" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.TDD_PasswordTest" />
+        <item itemvalue="JUnit.TDD_PasswordTest.checkPassword_tooLong" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -41,5 +98,27 @@
       <updated>1622466197066</updated>
     </task>
     <servers />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="765" y="228" key="#com.intellij.ide.util.MemberChooser" timestamp="1622466853213">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="765" y="228" key="#com.intellij.ide.util.MemberChooser/-1920.0.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1622466853213" />
+    <state x="740" y="262" key="FileChooserDialogImpl" timestamp="1622466960691">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="740" y="262" key="FileChooserDialogImpl/-1920.0.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1622466960691" />
+    <state x="824" y="419" key="Github.ShareDialog" timestamp="1622466629547">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="824" y="419" key="Github.ShareDialog/-1920.0.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1622466629547" />
+    <state x="701" y="226" key="Github.UntrackedFilesDialog" timestamp="1622466680636">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="701" y="226" key="Github.UntrackedFilesDialog/-1920.0.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1622466680636" />
+    <state x="731" y="337" key="com.intellij.testIntegration.createTest.CreateTestDialog" timestamp="1622467686528">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="731" y="337" key="com.intellij.testIntegration.createTest.CreateTestDialog/-1920.0.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1622467686528" />
   </component>
 </project>
